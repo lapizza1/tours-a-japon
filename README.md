@@ -1,8 +1,7 @@
 
-<html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Tours a Japón | Experiencias Privadas</title>
+<title> TOURS A JAPON  | Experiencias Privadas</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
@@ -228,11 +227,11 @@ footer{
 
 <header>
     <div class="header-container">
-        <div class="logo">Tours a Japón</div>
+        <div class="logo">TOUR A JAPON </div>
         <nav>
-            <a href="#tours">Tours</a>
-            <a href="#about">Sobre mí</a>
-            <a href="#contact">Contacto</a>
+            <a href="#tours">TOURS </a>
+            <a href="#about">SOBRE NOSOTROS </a>
+            <a href="#contact">CONTACTO </a>
         </nav>
     </div>
 </header>
