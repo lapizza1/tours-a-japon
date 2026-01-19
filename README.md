@@ -6,35 +6,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-:root{
-    --primary:#111;
+:root{ --primary:#111;
     --secondary:#e63946;
     --bg:#f6f6f6;
     --text:#333;
 }
 
-*{
-    box-sizing:border-box;
+*{ box-sizing:border-box;
     margin:0;
     padding:0;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body{  font-family: Arial, Helvetica, sans-serif;
     background:var(--bg);
     color:var(--text);
     line-height:1.6;
 }
 
 /* ---------- HEADER ---------- */
-header{
-    background:var(--primary);
+header{background:var(--primary);
     color:#fff;
     padding:20px 0;
 }
 
-.header-container{
-    max-width:1400px;
+.header-container{ max-width:1400px;
     margin:auto;
     padding:0 20px;
     display:flex;
@@ -42,55 +37,45 @@ header{
     align-items:center;
 }
 
-.logo{
-    font-size:24px;
+.logo{ font-size:24px;
     font-weight:bold;
 }
 
-nav a{
-    color:#fff;
+nav a{ color:#fff;
     text-decoration:none;
     margin-left:20px;
     font-weight:bold;
 }
-
-nav a:hover{
-    color:var(--secondary);
+nav a:hover{ color:var(--secondary);
 }
 
 /* ---------- HERO ---------- */
-.hero{
-    height:85vh;
+.hero{height:85vh;
     background:url("https://images.unsplash.com/photo-1549693578-d683be217e58") center/cover no-repeat;
     display:flex;
     align-items:center;
 }
 
-.hero-content{
-    max-width:1400px;
+.hero-content{max-width:1400px;
     margin:auto;
     padding:0 20px;
     color:white;
 }
 
-.hero-box{
-    background:rgba(0,0,0,0.65);
+.hero-box{background:rgba(0,0,0,0.65);
     max-width:600px;
     padding:40px;
     border-radius:12px;
 }
 
-.hero-box h1{
-    font-size:42px;
+.hero-box h1{font-size:42px;
     margin-bottom:15px;
 }
 
-.hero-box p{
-    font-size:18px;
+.hero-box p{font-size:18px;
 }
 
-.hero-box a{
-    display:inline-block;
+.hero-box a{display:inline-block;
     margin-top:20px;
     background:var(--secondary);
     color:white;
@@ -101,27 +86,22 @@ nav a:hover{
 }
 
 /* ---------- SECTIONS ---------- */
-section{
-    padding:80px 20px;
+section{padding:80px 20px;
 }
 
-.container{
-    max-width:1400px;
+.container{ max-width:1400px;
     margin:auto;
 }
 
-.section-title{
-    text-align:center;
+.section-title{ text-align:center;
     margin-bottom:50px;
 }
 
-.section-title h2{
-    font-size:36px;
+.section-title h2{font-size:36px;
     margin-bottom:10px;
 }
 
-.section-title p{
-    color:#666;
+.section-title p{ color:#666;
 }
 
 /* ---------- TOURS ---------- */
