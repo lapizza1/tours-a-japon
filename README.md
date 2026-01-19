@@ -1,5 +1,4 @@
-# tours-a-japon
-<!DOCTYPE html>
+TOURS A JAPON
 <html lang="es">
 <head>
     <meta charset="UTF-8">
