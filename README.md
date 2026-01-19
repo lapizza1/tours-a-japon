@@ -5,11 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tours a Japón</title>
   <style>
-    :root {
-      --rojo: #d6001c;
+    :root {--rojo: #d6001c;
       --negro: #111;
-      --blanco: #ffffff;
-    }
+      --blanco: #ffffff;}
 
     * {
       margin: 0;
