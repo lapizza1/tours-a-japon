@@ -1,136 +1,194 @@
-TOURS A JAPON
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Tours a Japón</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tours a Japón</title>
+  <style>
+    :root {
+      --rojo: #d6001c;
+      --negro: #111;
+      --blanco: #ffffff;
+    }
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f4f4f4;
-            color: #333;
-        }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
 
-        header {
-            background: #111;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
+    body {
+      background: var(--blanco);
+      color: var(--negro);
+      line-height: 1.6;
+    }
 
-        nav {
-            background: #222;
-            padding: 10px 0;
-            text-align: center;
-        }
+    header {
+      background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('https://images.unsplash.com/photo-1549692520-acc6669e2f0c');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
 
-        .container {
-            max-width: 1400px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+    .btn {
+      background: var(--rojo);
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      display: inline-block;
+    }
 
-        .hero {
-            background: url("https://images.unsplash.com/photo-1549693578-d683be217e58") center/cover no-repeat;
-            height: 400px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-        }
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
 
-        .hero h1 {
-            background: rgba(0,0,0,0.6);
-            padding: 20px 30px;
-            border-radius: 10px;
-            font-size: 42px;
-        }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
 
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin-top: 50px;
-        }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
 
-        .card {
-            background: white;
-            border-radius: 12px;
-            padding: 25px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
+    .card {
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      overflow: hidden;
+      background: white;
+    }
 
-        .card h3 {
-            margin-top: 0;
-        }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
 
-        footer {
-            background: #111;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 60px;
-        }
-    </style>
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      margin-bottom: 10px;
+    }
+
+    .why {
+      background: #f7f7f7;
+      text-align: center;
+    }
+
+    .why p {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      max-width: 500px;
+      padding: 14px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      background: var(--negro);
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
 </head>
-
 <body>
 
-<header>
-    <h1>Tours a Japón 🇯🇵</h1>
-    <p>Experiencias privadas y personalizadas</p>
-</header>
+  <header>
+    <h1>TOURS A JAPÓN</h1>
+    <p>Vive Japón sin estrés, con guías expertos y experiencias reales</p>
+    <a href="#contacto" class="btn">Cotiza tu viaje</a>
+  </header>
 
-<nav>
-    <a href="#">Inicio</a>
-    <a href="#">Tours</a>
-    <a href="#">Sobre mí</a>
-    <a href="#">Contacto</a>
-</nav>
-
-<div class="container">
-
-    <div class="hero">
-        <h1>Descubre Japón como nunca antes</h1>
-    </div>
-
+  <section>
+    <h2 class="section-title">Tours Destacados</h2>
     <div class="cards">
-        <div class="card">
-            <h3>Tokyo Clásico</h3>
-            <p>Asakusa, Shibuya, Meiji y mucho más con guía en español.</p>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26" />
+        <div class="card-content">
+          <h3>Japón Esencial</h3>
+          <p>Tokio, Kioto y Osaka en un solo viaje. Ideal para primera vez.</p>
         </div>
-
-        <div class="card">
-            <h3>Hakone & Fuji</h3>
-            <p>Vistas del Monte Fuji, onsen y naturaleza.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989" />
+        <div class="card-content">
+          <h3>Japón Cultural</h3>
+          <p>Templos, tradiciones, gastronomía y pueblos históricos.</p>
         </div>
-
-        <div class="card">
-            <h3>Kyoto & Nara</h3>
-            <p>Templos, geishas y la historia tradicional japonesa.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1526481280690-7b7c6c9f14f4" />
+        <div class="card-content">
+          <h3>Japón Premium</h3>
+          <p>Hoteles selectos, transporte rápido y atención personalizada.</p>
         </div>
+      </div>
     </div>
+  </section>
 
-</div>
+  <section class="why">
+    <h2 class="section-title">¿Por qué viajar con nosotros?</h2>
+    <p>
+      Somos especialistas en Japón. Organizamos tours claros, bien explicados y adaptados a viajeros de Latinoamérica.
+      Sin confusión, sin estrés y con acompañamiento real.
+    </p>
+  </section>
 
-<footer>
-    <p>© 2026 Tours a Japón | Guía profesional en Japón</p>
-</footer>
+  <section id="contacto" class="contact">
+    <h2 class="section-title">Solicita tu cotización</h2>
+    <form>
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Correo" required />
+      <input type="text" placeholder="País de salida" />
+      <textarea placeholder="Cuéntanos qué tipo de viaje buscas"></textarea>
+      <br />
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2026 Tours a Japón · Viaja con expertos
+  </footer>
 
 </body>
 </html>
